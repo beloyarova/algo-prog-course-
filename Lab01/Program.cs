@@ -78,4 +78,12 @@ double priceWithVat = productPrice * (1 + VatRate); // Вычисление ит
 Console.WriteLine($"Учебное заведение: {CollegeName}");
 Console.WriteLine($"Цена без НДС {productPrice}, с НДС ({VatRate:P0}):{priceWithVat}");
 
+Console.WriteLine();
+
+int totalMinutes = 500;
+int minutesPerLesson = 45;
+
+int max_lesson = totalMinutes / minutesPerLesson;
+int remaining_minutes = totalMinutes % minutesPerLesson;
+Console.WriteLine($"{totalMinutes} минут = {max_lesson} полных занятий + {remaining_minutes} минут");
 
