@@ -26,3 +26,16 @@ Console.WriteLine($"Стипендия положена (>= 4.0): {grant}");
 Console.WriteLine();
 Console.WriteLine($"Учебных недель осталось в семестре: {weeks}");
 
+int scholarship = 810;
+int monthlyExpenses = 7000;
+
+const int MonthsInSemester = 4;
+
+int balance = scholarship - monthlyExpenses;
+int semestr_balance = balance * MonthsInSemester;
+
+Console.WriteLine();
+
+Console.WriteLine($"Остаток за месяц {balance}");
+Console.WriteLine($"Остаток за семестр {semestr_balance}");
+
