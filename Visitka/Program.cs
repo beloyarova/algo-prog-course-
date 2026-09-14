@@ -1,4 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
 string name1 = "Белоярова Александра Алексеевна";
 string name2 = "Алексеевская Елена Александровна";
 string groop = "ИСП-251";
